@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion } from "framer-motion";
 import dynamic from 'next/dynamic';
 import { useInView } from 'react-intersection-observer';
 import { useState, useEffect } from 'react';
