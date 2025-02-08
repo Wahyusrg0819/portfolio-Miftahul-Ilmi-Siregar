@@ -289,7 +289,7 @@ export default function Home() {
             className="text-4xl sm:text-6xl mb-6 sm:mb-8 text-pink-300"
             variants={fadeInUp}
           >
-            "
+            &quot;
           </motion.div>
           <motion.blockquote
             className="text-lg sm:text-xl md:text-2xl text-gray-700 italic mb-6 sm:mb-8 px-4"
