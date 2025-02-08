@@ -16,7 +16,16 @@ export const metadata: Metadata = {
   description: "Portfolio Miftahul Ilmi Siregar, mahasiswi semester 8 Sastra Bahasa Jepang Universitas Negeri Padang",
   keywords: ["portfolio", "sastra jepang", "bahasa jepang", "universitas negeri padang", "miftahul ilmi siregar"],
   icons: {
-    icon: '/icons/flower.ico',
+    icon: [
+      {
+        url: '/icons/sakura (1).svg',
+        type: 'image/svg+xml',
+      },
+      {
+        url: '/icons/flower.ico',
+        type: 'image/x-icon',
+      }
+    ],
   },
 };
 
@@ -28,7 +37,8 @@ export default function RootLayout({
   return (
     <html lang="id">
       <head>
-        <link rel="shortcut icon" type="image/x-icon" href="/icons/flower.ico" />
+        <link rel="icon" type="image/svg+xml" href="/icons/sakura (1).svg" />
+        <link rel="alternate icon" type="image/x-icon" href="/icons/flower.ico" />
       </head>
       <body className={`${nunito.className} bg-pink-50 text-gray-800 min-h-screen flex flex-col`}>
         <Navbar />
